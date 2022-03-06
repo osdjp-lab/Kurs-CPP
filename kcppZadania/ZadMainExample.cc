@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 /**
@@ -12,6 +13,67 @@ using namespace std;
  * Nazwać program: ZadMainExample.cc 
  */
 
-int main() {
-    return 0;
+int modulo(int a, int b) {
+    return a % b;
+}
+
+int suma(int a, int b) {
+    return a + b;
+}
+
+int roznica(int a, int b) {
+    return a - b;
+}
+
+extern "C" int iloczyn(int a, int b) {
+    return a * b;
+}
+
+extern "C" double iloraz (int a, int b) {
+    return (double) a / b;
+}
+
+int main(int argc, char *argv[]) {
+    if (argc == 4) {
+        string function = argv[1];
+        string arg1 = argv[2];
+        string arg2 = argv[3];
+        int operation, a, b;
+        operation = stoi(function);
+        a = stoi(arg1);
+        b = stoi(arg2);
+        switch (operation) {
+            case 0: cout << a << " % " << b << " = " << modulo (a, b) << endl;
+                    break;
+            case 1: cout << a << " + " << b << " = " << suma (a, b) << endl;
+                    break;
+            case 2: cout << a << " - " << b << " = " << roznica (a, b) << endl;
+                    break;
+            case 3: cout << a << " * " << b << " = " << iloczyn (a, b) << endl;
+                    break;
+            case 4: cout << a << " / " << b << " = " << iloraz (a, b) << endl;
+                    break;
+        }
+        return 0; 
+    } if (argc == 2) {
+        string arg = argv[1];
+        if ((arg == "-h") || (arg == "--help")) {
+            cout << "Funkcja sluzy do wykonywania prostych operacji matematycznych na liczbach calkowitych." << endl;
+            cout << endl;
+            cout << "Zastosowanie: " << argv[0] << " <indeks-funkcji> <pierwsza-liczba-calkowita> <druga-liczba-calkowita>" << endl;
+            cout << endl;
+            cout << "Indeksy funkcji: " << endl;
+            cout << "0 - modulo" << endl;
+            cout << "1 - suma" << endl;
+            cout << "2 - roznica" << endl;
+            cout << "3 - iloczyn" << endl;
+            cout << "4 - iloraz" << endl;
+            return 0;
+        }
+        cerr << "Zastosowanie: " << argv[0] << " <indeks-funkcji> <pierwsza-liczba-calkowita> <druga-liczba-calkowita>" << endl;
+        return 1;
+    } else {
+        cerr << "Zastosowanie: " << argv[0] << " <indeks-funkcji> <pierwsza-liczba-calkowita> <druga-liczba-calkowita>" << endl;
+        return 1;
+    }
 }
