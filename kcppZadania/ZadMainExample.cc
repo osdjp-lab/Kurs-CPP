@@ -43,15 +43,15 @@ int main(int argc, char *argv[]) {
         a = stoi(arg1);
         b = stoi(arg2);
         switch (operation) {
-            case 0: cout << a << " % " << b << " = " << modulo (a, b) << endl;
+            case 0: cout << a << " % " << b << " = " << modulo(a, b) << endl;
                     break;
-            case 1: cout << a << " + " << b << " = " << suma (a, b) << endl;
+            case 1: cout << a << " + " << b << " = " << suma(a, b) << endl;
                     break;
-            case 2: cout << a << " - " << b << " = " << roznica (a, b) << endl;
+            case 2: cout << a << " - " << b << " = " << roznica(a, b) << endl;
                     break;
-            case 3: cout << a << " * " << b << " = " << iloczyn (a, b) << endl;
+            case 3: cout << a << " * " << b << " = " << iloczyn(a, b) << endl;
                     break;
-            case 4: cout << a << " / " << b << " = " << iloraz (a, b) << endl;
+            case 4: cout << a << " / " << b << " = " << iloraz(a, b) << endl;
                     break;
         }
         return 0; 
