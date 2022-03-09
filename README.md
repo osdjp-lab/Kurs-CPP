@@ -9,3 +9,7 @@ Katalog zawierający zadania.
 ## projekt
 
 Katalog zawierający projekt zaliczeniowy.
+
+## labZadania
+
+Katalog zawierający zadania z laboratoriów.
