@@ -13,3 +13,5 @@ Spis plików omawianych na poszczególnych zajęciach.
     - LTypeConst.cc
     - LTypeEnumerated.cc
     - LStaticCast.cc
+    - LNamespace.cc
+
