@@ -12,6 +12,19 @@ using namespace std;
  * Nazwać program: ZadZwracanie.cc
  */
 
+int fval(int a, int b) {
+    
+}
+
+&int fref(int a, int b) {
+
+}
+
+*int fptr(int a, int b) {
+     
+}
+
 int main() {
+    
     return 0;
 }

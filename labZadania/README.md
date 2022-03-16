@@ -15,3 +15,12 @@ Spis plików omawianych na poszczególnych zajęciach.
     - LStaticCast.cc
     - LNamespace.cc
 
+## 3) 16.03.2022
+    - LTabliceAutomatyczne.cc
+    - LChar.cc
+    - LString.cc
+    - LDifferenceGPPandGCCa.cc
+    - LFunkcjaVoid.cc
+    - LFunkcjaMain.cc
+    - LFunkcjaMainEnvp.cc
+
