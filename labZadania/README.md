@@ -19,8 +19,16 @@ Spis plików omawianych na poszczególnych zajęciach.
     - LTabliceAutomatyczne.cc
     - LChar.cc
     - LString.cc
-    - LDifferenceGPPandGCCa.cc
     - LFunkcjaVoid.cc
     - LFunkcjaMain.cc
     - LFunkcjaMainEnvp.cc
+
+## 4) 23.03.2022:
+    - LExtern.cc
+    - LDifferenceGPPandGCCa.c
+    - LDifferenceGPPandGCCa.cc
+    - LDifferenceGPPandGCCb.cc
+    - LDifferenceGPPandGCC.C
+    - LThis.cc
+    - LStaticFunctionMember.cc
 
