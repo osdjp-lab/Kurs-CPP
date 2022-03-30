@@ -32,3 +32,8 @@ Spis plików omawianych na poszczególnych zajęciach.
     - LThis.cc
     - LStaticFunctionMember.cc
 
+## 5) 30.03.2022:
+    - LPrzekazywaniePrzezWartoscReferencjeWskaznik.cc
+    - LPrzekazywanieTablic.cc
+    - LArgumentyDomyslne.cc
+
