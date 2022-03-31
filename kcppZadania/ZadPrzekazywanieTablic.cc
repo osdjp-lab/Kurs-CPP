@@ -5,7 +5,9 @@ using namespace std;
  * Zadanie 2.2
  * --------------------------------------
  * Napisz program przekazujący tablice z zachowaniem rozmiaru
- * Nazwać program: ZadPrzekazywanieTablic.cc
+ * - zdefiniować ogólną funkcję w której nie jest na sztywno
+ * ustawiony rozmiar tablicy, która przekazujemy
+ * Nazwać program: ZadPrzekazywanieTablicZpodaniemRozmiaru.cc
  */
 
 const int SIZE = 10;
