@@ -58,22 +58,22 @@ int main(int argc, char *argv[]) {
     } if (argc == 2) {
         string arg = argv[1];
         if ((arg == "-h") || (arg == "--help")) {
-            cout << "Funkcja sluzy do wykonywania prostych operacji matematycznych na liczbach calkowitych." << endl;
+            cout << "Funkcja słuzy do wykonywania prostych operacji matematycznych na liczbach całkowitych." << endl;
             cout << endl;
-            cout << "Zastosowanie: " << argv[0] << " <indeks-funkcji> <pierwsza-liczba-calkowita> <druga-liczba-calkowita>" << endl;
+            cout << "Zastosowanie: " << argv[0] << " <indeks-funkcji> <pierwsza-liczba-całkowita> <druga-liczba-całkowita>" << endl;
             cout << endl;
             cout << "Indeksy funkcji: " << endl;
             cout << "0 - modulo" << endl;
             cout << "1 - suma" << endl;
-            cout << "2 - roznica" << endl;
+            cout << "2 - różnica" << endl;
             cout << "3 - iloczyn" << endl;
             cout << "4 - iloraz" << endl;
             return 0;
         }
-        cerr << "Zastosowanie: " << argv[0] << " <indeks-funkcji> <pierwsza-liczba-calkowita> <druga-liczba-calkowita>" << endl;
+        cerr << "Zastosowanie: " << argv[0] << " <indeks-funkcji> <pierwsza-liczba-całkowita> <druga-liczba-całkowita>" << endl;
         return 1;
     } else {
-        cerr << "Zastosowanie: " << argv[0] << " <indeks-funkcji> <pierwsza-liczba-calkowita> <druga-liczba-calkowita>" << endl;
+        cerr << "Zastosowanie: " << argv[0] << " <indeks-funkcji> <pierwsza-liczba-całkowita> <druga-liczba-całkowita>" << endl;
         return 1;
     }
 }
