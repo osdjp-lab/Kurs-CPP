@@ -37,3 +37,13 @@ Spis plików omawianych na poszczególnych zajęciach.
     - LPrzekazywanieTablic.cc
     - LArgumentyDomyslne.cc
 
+## 6) 06.04.2022:
+    - LArytmetykaWskaznikowZmienne.cc
+    - LConversion.cc
+    - LArytmetykaWskaznikow.cc
+    - LArytmetykaWskaznikowTablice.cc
+    - LOperatorPrzypisania.cc
+    - LOperatorInkrementacji.cc
+    - LBitoweOperatoryLogiczneDefine.cc
+    - LBitoweOperatoryLogiczneB.cc
+
