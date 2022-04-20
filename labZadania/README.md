@@ -47,3 +47,12 @@ Spis plików omawianych na poszczególnych zajęciach.
     - LBitoweOperatoryLogiczneDefine.cc
     - LBitoweOperatoryLogiczneB.cc
 
+## 7) 20.04.2022:
+    - LOperatorPriorytet.cc
+    - LCin.cc
+    - LStrumienie.cc
+    - LStrumienieNapisow.cc
+    - LSetPrecision.cc
+    - LSetFill.cc
+    - LManipulatory.cc
+
