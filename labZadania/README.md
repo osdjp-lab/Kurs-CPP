@@ -56,3 +56,20 @@ Spis plików omawianych na poszczególnych zajęciach.
     - LSetFill.cc
     - LManipulatory.cc
 
+## 8) 27.04.2022:
+    - LNawiasy.cc
+    - LInstrukcjaIf.cc
+    - LOperatorWarunkowy.cc
+    - LInstrukcjaSwitch.cc
+    - LInstrukcjaSwitch_char_A.cc
+    - LInstrukcjaSwitch_char_B.cc
+    - LInstrukcjaWhile.cc
+    - LInstrukcjaDoWhile.cc
+    - LInstrukcjaGotoZastepstwo.cc
+    - LDyrektywaInclude.cc
+    - LDyrektywaIncludeA.h
+    - LDyrektywaIncludeB.h
+    - LDyrektywaIfdef.cc
+    - LClassZagniezdzanie.cc
+    - LClass001.cc
+
