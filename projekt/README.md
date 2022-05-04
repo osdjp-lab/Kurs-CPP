@@ -7,10 +7,12 @@
 - Możliwość wykorzystania ncurses.
 - Możliwość zastosowania wstawek w C.
 
-## Pomysły na projekty
+## Pomysły na projekt
 
-- (...)
-- Gry np. "Kółko i Krzyżyk", "Sapper", Snake" etc. 
+- Program do generowania statystyk o kodzie z danego repozytorium.
+- System biblioteczny (rejestracja, wypożyczanie i zwracanie książek).
+- Gry np. "Kółko i Krzyżyk", "Sudoku", "Sapper", "Snake" etc.
+- Książka adresowa z dodatkowymi informacjami.
 - Generator haseł.
-- Program do ściągania np. aktualnych kursów walut.
+- Program do pobierania danych z internetu np. aktualnych kursów walut.
 
