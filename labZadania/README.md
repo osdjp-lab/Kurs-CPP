@@ -73,3 +73,17 @@ Spis plików omawianych na poszczególnych zajęciach.
     - LClassZagniezdzanie.cc
     - LClass001.cc
 
+## 9) 04.05.2022:
+    - LStruct.cc
+    - LThis.cc
+    - LClassThis001.cc
+    - LClassThis002.cc
+    - LClassKonstruktor.cc
+    - LClassDefaultKonstruktor.cc
+    - LClassKonstruktorKopiujacy.cc
+    - LClassListaInicjalizacyjna.cc
+    - LClassDestruktor.cc
+    - LStaticMember.cc
+    - LStaticFunctionMember.cc
+    - LClassSkladoweStatyczne.cc
+
