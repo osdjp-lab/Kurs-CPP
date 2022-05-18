@@ -87,3 +87,15 @@ Spis plików omawianych na poszczególnych zajęciach.
     - LStaticFunctionMember.cc
     - LClassSkladoweStatyczne.cc
 
+## 10) 18.05.2022:
+    - LClassSkladoweStatyczne.cc
+    - LClassFunkcjeZaprzyjaznione.cc
+    - LClassKlasyZaprzyjaznione.cc
+    - LPrzeciazanieFunkcji.cc
+    - LClassDziedziczenieA.cc
+    - LClassDziedziczenieWybiorcze.cc
+    - LClassDziedziczenieKonflikt.cc
+    - LClassDziedziczenieRefWsk.cc
+    - LClassVirtualA.cc
+    - LClassMetodyAbstrakcyjne.cc
+
