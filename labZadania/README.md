@@ -99,3 +99,9 @@ Spis plików omawianych na poszczególnych zajęciach.
     - LClassVirtualA.cc
     - LClassMetodyAbstrakcyjne.cc
 
+## 11) 01.06.2022:
+    - noTemplateFunction.cc
+    - templateFunction.cc
+    - templateClass.cc
+    - kcppKviCar/
+
