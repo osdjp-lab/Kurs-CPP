@@ -14,4 +14,4 @@ class ZadParzysta {
         void print();
 };
 
-#endif
+#endif // ZAD_PAR_H

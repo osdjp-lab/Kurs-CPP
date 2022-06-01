@@ -21,4 +21,4 @@ class ZadArytmetykaWskaznikow {
         void print();
 };
 
-#endif
+#endif // ZAD_AR_WSK_H

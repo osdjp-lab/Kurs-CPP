@@ -26,4 +26,4 @@ class ZadPreprocesor {
         void print();
 };
 
-#endif
+#endif // ZAD_PREPROC_H

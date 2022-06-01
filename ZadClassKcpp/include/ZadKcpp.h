@@ -24,4 +24,4 @@ class ZadKcpp {
         void menu();
 };
 
-#endif
+#endif // ZAD_KCPP_H

@@ -15,4 +15,4 @@ class ZadZwracanie {
         void print();
 };
 
-#endif
+#endif // ZADZWRACANIE_H

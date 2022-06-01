@@ -50,4 +50,3 @@ void ZadKcpp::menu() {
         cout << "Nie ma takiej sekcji" << endl;
     }
 }
-
