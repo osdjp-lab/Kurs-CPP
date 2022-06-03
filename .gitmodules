@@ -1,0 +1,3 @@
+[submodule "projekt/FileTerm"]
+	path = projekt/FileTerm
+	url = git@github.com:osdjp-lab/FileTerm.git
