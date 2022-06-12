@@ -24,12 +24,23 @@ int main(int argc, char *argv[]) {
     }
     ofstream file;
     file.open("ZadCinCoutFile.txt");
-    file << text;
-    file.close();
+    if (file.is_open()) {
+        file << text;
+        file.close();
+    } else {
+        cerr << "Nie udało się otworzyć pliku do zapisu" << endl;
+        return 1;
+    }
     ifstream file2;
     file2.open("ZadCinCoutFile.txt");
-    getline(file2, text);
-    cout << "Zapisany tekst: " << text << endl;
-    file2.close();
+    if (file2.is_open()) {
+        getline(file2, text);
+        cout << "Tekst odczytany z pliku: " << endl;
+        cout << text << endl;
+        file2.close();
+    } else {
+        cerr << "Nie udało się otworzyć pliku do odczytu" << endl;
+        return 1;
+    }
     return 0;
 }
